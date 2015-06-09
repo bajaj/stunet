@@ -1,0 +1,2 @@
+CREATE view chat_users AS
+SELECT l.user_id,p.fname,p.lname FROM logged_in l,profile p WHERE l.user_id=p.ID

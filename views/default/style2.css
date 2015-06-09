@@ -1,0 +1,315 @@
+
+/** CSS for view timetable view.tpl.php / view_teacher.tpl.php **/
+#timetable table{
+    -webkit-box-shadow:0 0 6px #C8D7EA; 
+    -moz-box-shadow: 0 0 6px #C8D7EA; 
+    box-shadow:0 0 6px #C8D7EA;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+border-radius: 6px;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 90%;
+}
+#timetable table#time, #timetable table#timenote
+{
+    text-align: center;
+}
+#timetable table td{
+    padding-left: 5px;
+}
+#timetable table tr#header
+{
+     -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    background-color: #afc5e1;
+    color: #FFFFFF;
+    border-bottom: 2px solid #000000;
+}
+
+
+#timetable table tr#header th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+#timetable table tr#header th:first-child{
+    -moz-border-radius: 6px 0px 0 0;
+    -webkit-border-radius: 6px 0px 0 0;
+    border-radius: 6px 0px 0 0;
+}
+#timetable table tr{
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#timetable table tr:last-child{
+    border:none;
+     -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+#timetable input
+{
+    width: 80%;
+}
+
+/**CSS for evaluation**/
+#evaluation table{
+    -webkit-box-shadow:0 0 6px #C8D7EA; 
+    -moz-box-shadow: 0 0 6px #C8D7EA; 
+    box-shadow:0 0 6px #C8D7EA;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+border-radius: 6px;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 90%;
+}
+#evaluation table#time, #timetable table#timenote
+{
+    text-align: center;
+}
+#evaluation table td{
+    padding-left: 5px;
+}
+#evaluation table tr#header
+{
+     -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    background-color: #afc5e1;
+    color: #FFFFFF;
+    border-bottom: 2px solid #000000;
+}
+
+
+#evaluation table tr#header th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+#evaluation table tr#header th:first-child{
+    -moz-border-radius: 6px 0px 0 0;
+    -webkit-border-radius: 6px 0px 0 0;
+    border-radius: 6px 0px 0 0;
+}
+#evaluation table tr{
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#evaluation table tr:last-child{
+    border:none;
+     -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+#evaluation input
+{
+    width: 80%;
+}
+
+/**CSS for entering evaluation details**/
+form#enterevaluation
+{
+    margin-left: 0%;
+        width: 100%;
+    margin-right: 0%;
+}
+
+form#enterevaluation label
+{
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+form#enterevaluation input[type="text"]
+{
+    width: 50%;
+}
+
+form#enterevaluation table#time input[type="text"]
+{
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+}
+
+/**CSS for edit evaluation**/
+#enterevaluation label#date
+{
+    float: right;
+    font-size: 70%;
+    color: grey;
+}
+
+label#students
+{
+    float: left;
+    text-align: left;
+}
+
+form#enterevaluation img{
+       background-color: #F7F6CA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+div#print
+{
+    float: right;
+    height: 60px;
+}
+
+table#event
+{
+   -webkit-box-shadow:0 0 5px #f7f7f7; 
+    -moz-box-shadow: 0 0 5px #f7f7f7; 
+    box-shadow:0 0 5px #f7f7f7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+table#event th{
+    width: 40%;
+}
+
+table#event tr th img{
+    vertical-align: middle;
+    border: 1px solid #f7f7f7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+table#event tr th
+{
+text-align:right;
+padding-right: 2.5em;
+padding-bottom: 0.5em;
+    padding-top: 0.5em;
+      font-size: 80%;
+        background-color: #F7F6CA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+table#event tr td{
+ padding-left: 10px; 
+         font-size: 80%;
+        background-color: #FFFFF;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+table#event{
+    border: none;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+table#event td{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+/**Event List**/
+div#events div#list
+{
+    display: inline-block;
+    list-style: none;
+   background-color: #C8D7EA;/*#EDEDED;*/
+    width: 100%;
+    min-height: 45px;
+        -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 15px;
+
+}
+
+div#events ul li{
+    list-style: none;
+}
+div#events ul li:first-child
+{
+    padding-top: 6px;
+    margin-left: 10px;
+    font-size: 90%;
+}
+
+div#events ul li:last-child
+{
+    margin-right: 10px;
+    float: right;
+    font-size: 80%;
+    color: grey;
+}
+
+table#suggestionstext
+{
+   
+     width:100%;
+    margin: 0px;
+    padding: 0px;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 80%;
+}
+table#suggestionstext caption
+{
+  text-align: center;   
+}
+
+table#suggestionstext td
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+table#suggestionstext img
+{
+        height: 80px;
+    width: 80px;
+   -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+padding-bottom:0.1em;
+}
+

@@ -1,0 +1,1 @@
+http://api.mVaayoo.com/mvaayooapi/MessageCompose?user=priyankjjain61@gmail.com:123ritesh&senderID=TEST SMS&receipientno=9819933892&dcs=0&msgtxt=This is Test message&state=4 

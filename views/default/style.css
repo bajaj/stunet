@@ -1,0 +1,1842 @@
+input[type="submit"], button, input[type="button"]
+{
+display: inline-block;
+color: #fff !important;
+background: #739dcc url(blue_t_100.png) top repeat-x;
+background-image: -moz-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: -webkit-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: -o-linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+background-image: -o-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: -ms-linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+background-image: -ms-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+background-image: linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+border: 1px solid #369;
+text-shadow: 1px 1px 2px rgb(0,0,0);
+text-shadow: 1px 1px 2px rgba(0,0,0, .25);
+padding: 3px 15px;
+text-align: center;
+-moz-border-radius: 15px;
+border-radius: 15px;
+text-transform: uppercase;
+font-size: .75em;
+font-weight: bold;
+-moz-box-shadow: inset 0 1px 1px rgba(255,255,255, .5);
+-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255, .5);
+box-shadow: inset 0 1px 1px rgba(255,255,255, .5);
+cursor: pointer;
+-webkit-writing-mode: horizontal-tb;
+text-indent: 0px;
+letter-spacing: normal;
+word-spacing: normal;
+margin: 0em;
+
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+-webkit-appearance: push-button;
+white-space: pre;
+box-sizing: border-box;
+-webkit-box-align: center;
+font-family: Arial, Tahoma, sans-serif;
+}
+input[type="submit"]:hover, button:hover, input[type="button"]:hover
+{
+		-moz-box-shadow: inset 0 2px 8px rgba(255,255,255, .5);
+		-webkit-box-shadow: inset 0 2px 8px rgba(255,255,255, .5);
+		box-shadow: inset 0 2px 8px rgba(255,255,255, .5);
+		text-shadow: 0 1px 0 rgb(0,0,0);
+		text-shadow: 0 1px 0 rgba(0,0,0, .25);
+		background-color: #4a86d7;
+}
+input[type="submit"]:active, button:active, input[type="button"]:active
+{
+
+		background-image: url(blue_t_75.png);
+                background-image: -moz-linear-gradient(top, rgba(80,155,255,0.75) 0%, rgba(80,155,255,0) 100%);
+                background-image: -webkit-linear-gradient(top, rgba(80,155,255,0.75) 0%, rgba(80,155,255,0) 100%);
+                background-image: -o-linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+                background-image: -o-linear-gradient(top, rgba(80,155,255,0.75) 0%, rgba(80,155,255,0) 100%);
+                background-image: -ms-linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+                background-image: -ms-linear-gradient(top, rgba(80,155,255,0.75) 0%, rgba(80,155,255,0) 100%);
+                background-image: linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+                background-image: linear-gradient(top, rgba(80,155,255,0.75) 0%, rgba(80,155,255,0) 100%);
+		-moz-box-shadow: inset 0 -1px 5px rgba(255,255,255, .25);
+		-webkit-box-shadow: inset 0 -1px 5px rgba(255,255,255, .25);
+		box-shadow: inset 0 -1px 5px rgba(255,255,255, .25);
+}  
+
+button.disabled, button.disabled:hover
+{
+display: inline-block;
+color: #fff !important;
+background: #739dcc url(blue_t_100.png) top repeat-x;
+background-image: -moz-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: -webkit-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: -o-linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+background-image: -o-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: -ms-linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+background-image: -ms-linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+background-image: linear-gradient(top, rgb(80,155,255) 0%, rgb(80,155,255) 100%);
+background-image: linear-gradient(top, rgba(80,155,255,1) 0%, rgba(80,155,255,0) 100%);
+border: 1px solid #369;
+text-shadow: 1px 1px 2px rgb(0,0,0);
+text-shadow: 1px 1px 2px rgba(0,0,0, .25);
+padding: 3px 15px;
+text-align: center;
+-moz-border-radius: 15px;
+border-radius: 15px;
+text-transform: uppercase;
+font-size: .75em;
+font-weight: bold;
+-moz-box-shadow: inset 0 1px 1px rgba(255,255,255, .5);
+-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255, .5);
+box-shadow: inset 0 1px 1px rgba(255,255,255, .5);
+cursor: pointer;
+-webkit-writing-mode: horizontal-tb;
+text-indent: 0px;
+letter-spacing: normal;
+word-spacing: normal;
+margin: 0em;
+
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+-webkit-appearance: push-button;
+white-space: pre;
+box-sizing: border-box;
+-webkit-box-align: center;
+font-family: Arial, Tahoma, sans-serif;
+cursor: default;
+}
+
+/* FOR edit profile*/
+form#register label
+	{
+	float:left;
+	width:200px;
+	text-align:right;
+	margin-right:20px;
+	}
+	
+	form#register input[type="checkbox"], input[type="text"], input[type="select"],input[type="password"]
+	{
+	float:left;
+	margin-right:20px;
+	width:200px;
+	}
+	
+	form#register select#birthday_day, select#birthday_month, select#birthday_year
+	{
+	float:left;
+	margin-right:100px;
+	}
+        
+        form#register .error
+        {
+            float:left;
+        margin-left:240px;
+        padding: 0px 0px 10px 21px;
+        background: url('./images/errow.png') no-repeat 0 0;
+        }
+        
+        form#register textarea#bio
+       {
+        width: 60%;
+       }
+       
+       /* General CSs */
+
+div#hide
+{
+   width:100%;
+   height: 100%;
+   display: none; 
+}
+
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a {
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	color: black;
+}
+
+h1 a
+{
+    text-decoration: none;
+}
+
+ul
+{
+list-style:none;
+}
+
+nav ul {
+    list-style:none;
+}
+
+body
+{
+	color: #ffffff;
+    font-family: "trebuchet ms", "monaco", "arial", "verdana", sans-serif; 
+    font-size:95%;
+}
+
+h1
+{
+font-family: 'ClarendonRoman',Helvetica, Geneva;
+text-align:center;
+}
+hr
+{
+border: 1px solid;
+}
+
+#wrapper{
+	height:100%;
+	width:100%;
+        margin: 0px;
+        padding: 0px;
+}
+
+#headerbar
+{
+width:100%;
+height:20%;
+min-width:1100px;
+min-height:69px;
+text-align:right;
+background: url("./images/subbg.jpg") repeat-x;
+color: #b4ccd2;
+}
+
+nav {
+	float: right;
+	position: relative;
+	top: 14px;
+	left:-100px;
+}
+
+nav ul li {
+	float: left;
+	padding-left: 14px; 
+}
+
+nav ul li a {
+	text-transform: uppercase; 
+	color: #b4ccd2; 
+	text-shadow: #3d5155 1px 1px 1px; 
+	font: normal 14px "AvenirBold", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 10px;
+	display: block;
+        text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #354649;
+	text-shadow: #84afb8 0px 1px 1px;
+	-webkit-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+	-moz-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+	/*-0-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;*/
+	transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+}
+
+#sidepane
+{
+float: left;
+width: 17%;
+min-width: 200px;
+
+margin-bottom: 0px;
+background: url("./images/sitebg.jpg");
+}
+
+#sidepane ul {
+	margin-top:40px;
+	list-style: none; 
+	display: block;  
+	float:right;
+	width: 100%;   
+        margin-right: 0px;
+}
+
+#sidepane ul li a:hover { 
+	background: #FFF; 
+	text-align: right; 
+}
+#sidepane ul li a img
+{
+    display: none;
+}
+
+#sidepane ul li ul li a img
+{
+    display: none;
+}
+#sidepane ul li a {
+    margin: 0px;
+	padding-right: 10%;
+	padding-top: 6px; 
+	padding-bottom: 6px;  
+	float: left; 
+	width: 90%;
+	text-align: right; 
+	color:black; 
+	text-decoration: none; 
+	font-size: 1.0em;
+	font-weight:bold;
+	text-transform:uppercase; 
+}
+#sidepane ul li a:hover {
+	color:#729EA9; 
+	text-decoration: none; 
+	font-size: 1.0em;
+	font-weight:bold;
+	text-transform:uppercase; 
+	padding-right: 5%;
+        width: 95%;
+}
+
+#sidepane ul li ul{
+	list-style: none; 
+	display: block;  
+	float:right;
+        margin: 0px;
+        font-size: 70%;
+}
+
+ul.submenu
+{
+    display: none;
+}
+#sidepane ul li ul li a:hover { 
+	background: #FFF; 
+	text-align: right; 
+}
+
+#sidepane ul li ul li a {
+	padding-top: 4px; 
+	padding-bottom: 4px;  
+	float: left; 
+	width: 90%;
+	text-align: right; 
+	text-decoration: none; 
+	font-size: 1.0em;
+	font-weight:bold;
+	text-transform:uppercase; 
+	padding-right: 10%;
+}
+#sidepane ul li ul li a:hover {
+	color:#729EA9; 
+	text-decoration: none; 
+	font-size: 1.0em;
+	font-weight:bold;
+	text-transform:uppercase; 
+	padding-right: 5%;
+        width: 95%;
+}
+
+
+
+#rightside
+{
+float: right;
+width: 25%;
+height: 100%;
+min-width: 200px;
+
+margin-bottom: 0px;
+background: url("./images/sitebg.jpg");
+}
+
+#main
+{
+    margin-left:5%;
+margin-right:5%;
+width:90%;
+min-width: 1000px;
+display:block;
+color: black;
+margin-bottom: 0px;
+background: #F2F2F2;
+}
+
+#content
+{
+z-index:30;
+margin-left:17%;
+margin-right:25%;
+padding:40px;
+}
+
+
+@font-face {
+	font-family: 'ClarendonRoman';
+	src: url('./font/clarebtrom-webfont.eot');
+	src: url('./font/clarebtrom-webfont.woff') format('woff'), url('./font/clarebtrom-webfont.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'AvenirRoman';
+	src: url('./font/avenirltstd-roman-webfont.eot');
+	src: url('./font/avenirltstd-roman-webfont.woff') format('woff'), url('./font/avenirltstd-roman-webfont.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'AvenirBold';
+	src: url('./font/avenirltstd-heavy-webfont.eot');
+	src: url('./font/avenirltstd-heavy-webfont.woff') format('woff'), url('./font/avenirltstd-heavy-webfont.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'SeanRegular';
+	src: url('./font/handsean-webfont.eot');
+	src: url('./font/handsean-webfont.woff') format('woff'), url('./font/handsean-webfont.ttf') format('truetype');
+}
+
+
+/*
+
+#logo {
+	float: left;
+	position: relative;
+	top: 3px;
+	left:100px;
+}
+
+#logo ul li {
+	float: left;
+	padding-left: 14px; 
+}
+
+#logo ul li a {
+text-decoration:none;
+	text-transform: uppercase; 
+	color: #b4ccd2; 
+	text-shadow: #3d5155 1px 1px 1px; 
+	font: normal 35px "AvenirRoman", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 10px;
+	display: block;
+}
+
+#logo ul li a:hover {
+	color: #354649;
+	text-shadow: #84afb8 0px 1px 1px;
+	-webkit-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+	-moz-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+	/*-0-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;*/
+/*	transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+}
+*/
+
+
+#logo {
+	float: left;
+	position: relative;
+	top: 3px;
+	left:100px;
+}
+
+#logo ul li {
+	float: left;
+	padding-left: 14px; 
+}
+
+#logo ul li a {
+text-decoration:none;
+	text-transform: uppercase; 
+	color: #b4ccd2; 
+	text-shadow: #3d5155 1px 1px 1px; 
+	font: normal 35px "AvenirRoman", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 10px;
+	display: block;
+}
+
+#logo ul li a:hover {
+	color: #354649;
+	text-shadow: #84afb8 0px 1px 1px;
+	-webkit-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+	-moz-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+	-0-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+	transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+}
+
+#logo ul li:last-child
+{
+    position: relative;
+    top: 43px;
+    left:-90px;
+}
+
+/*CSS for members-search search.tpl.php starts*/
+/*For members list*/
+div#memberslist
+{   
+width: 100%;
+}
+
+div#memberslist div#member 
+{
+    display: inline-block;
+    width: 100%;
+    min-height: 100px;
+   background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+padding: 4px;
+margin-bottom: 20px;
+}
+
+div#memberslist div#member div#profilepic
+{
+    float: left; 
+    width:15%; 
+    font-size:80%; 
+    text-align:center;
+    padding-top: 4px;
+}
+
+div#memberslist div#member div#profilepic img
+{
+    height:70px;
+    width:70px;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+div#memberslist div#member div#info
+{
+    margin-left:16%; 
+    padding-top:10px;
+    font-size: 90%;
+}
+
+div#memberslist div#member div#button
+{
+    float:right;
+    margin-right: 5px;
+}
+
+div#searchinfo
+{
+       width: 50%;
+    margin: 0px auto;
+    text-align: center;
+     background-color: #F7F6CA;
+    -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 20px;
+font-size: 90%;
+}
+
+/*CSS for members-search search.tpl.php ends*/
+
+/* for forms */
+label
+	{
+	float:left;
+	width:200px;
+	text-align:right;
+	margin-right:20px;
+	}
+	
+	input[type="checkbox"], input[type="text"], input[type="select"],input[type="password"]
+	{
+	float:left;
+	margin-right:20px;
+	width:200px;
+	}
+
+        
+/*For pending relationships and so on*/
+/**CSS for pending relationships pending.tpl.php starts*/
+div#pending
+{   
+width: 100%;
+}
+
+div#pending div#member 
+{
+    width: 100%;
+    height: 100px;
+   background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+padding: 4px;
+margin-bottom: 20px;
+}
+
+div#pending div#member div#profilepic
+{
+    float: left; 
+    width:15%; 
+    font-size:80%; 
+    text-align:center;
+    padding-top: 4px;
+}
+
+div#pending div#member div#profilepic img
+{
+    height:70px;
+    width:70px;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+div#pending div#member div#info
+{
+    margin-left:16%; 
+    padding-top:10px;
+    font-size: 90%;
+}
+
+div#pending div#member div#button
+{
+    float:right;
+    margin-right: 5px;
+    font-size: 90%;
+}
+/**CSS for pending relationships pending.tpl.php ends*/
+
+/**CSS for mine and others relationships all.tpl.php mine.tpl.php starts**/
+/*Mine relationships */
+div#mine ul li
+{
+    float:left;
+}
+div#mine div#same
+{
+    padding-bottom: 10px;
+}
+div#mine div#different
+{
+    padding-bottom: 10px; 
+}
+div#mine div ul li div#profilepic
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    width:90px; 
+    font-size:80%; 
+    text-align:center; 
+    padding-bottom:0.5em;
+       background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+div#mine div#same ul li div#profilepic img
+{   
+
+    height:80px;
+    width:80px;
+    margin-top: 4px;
+    padding-bottom:0.1em;
+       background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+
+}
+div#mine div#different ul li div#profilepic img
+{
+    height:80px;
+    width:80px;
+    margin-top: 4px;
+    padding-bottom:0.1em;
+       background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+div#mine div#same div#member 
+{
+    display: table-row-group;
+}
+
+div#mine div#different div#member 
+{
+    display: table-row-group;
+}
+/**CSS for mine and others relationships all.tpl.php mine.tpl.php ends**/
+
+/*messages*/
+#messages table{
+    -webkit-box-shadow:0 0 6px #C8D7EA; 
+    -moz-box-shadow: 0 0 6px #C8D7EA; 
+    box-shadow:0 0 6px #C8D7EA;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+border-radius: 6px;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 90%;
+}
+#messages table#messages1
+{
+    text-align: center;
+}
+#messages table td{
+    padding-left: 5px;
+}
+#messages table tr#header
+{
+     -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    background-color: #afc5e1;
+    color: #FFFFFF;
+    border-bottom: 2px solid #000000;
+}
+
+
+#messages table tr#header th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+#messages table tr#header th:first-child{
+    -moz-border-radius: 6px 0px 0 0;
+    -webkit-border-radius: 6px 0px 0 0;
+    border-radius: 6px 0px 0 0;
+}
+#messages table tr{
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#messages table tr:last-child{
+    border:none;
+     -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+#messages form input[type="text"], textarea
+{
+width: 300px;    
+}
+
+
+.read
+{
+   color:grey; 
+}
+.read a
+{
+   color:grey; 
+}
+.unread
+{
+  color:black;  
+}
+
+div.messages {
+    display: table;
+    margin: 0 auto;
+}
+div.messages ul li
+{
+   float:left; 
+}
+
+div.messages ul li div.email_img 
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    width:80px; 
+    font-size:80%; 
+    text-align:center; 
+    padding-bottom:0.5em;
+       background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+div.messages ul li div.email_img:hover
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    width:80px; 
+    font-size:80%; 
+    text-align:center; 
+    padding-bottom:0.5em;
+       background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #FFFFFF; 
+    -moz-box-shadow: 0 0 5px #FFFFFF; 
+    box-shadow:0 0 5px #FFFFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+div.messages ul li div.email_img img
+{   
+
+    height:60px;
+    width:60px;
+    margin-top: 4px;
+    padding-bottom:0.1em;
+       background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+
+}
+/**CSS for profile -- view.tpl.php starts*/
+/* Profile */
+#myprofile
+{
+display:block;
+}
+
+#myprofile h2
+{
+
+font: normal 18px "Helvetica Neue";
+}
+
+#myprofile ul li
+{
+margin-left: 10px;
+margin-top: 10px;
+}
+#myprofile ul
+{
+list-style-image:url('./images/arrow.png');
+}
+
+
+table#profile
+{
+   -webkit-box-shadow:0 0 5px #f7f7f7; 
+    -moz-box-shadow: 0 0 5px #f7f7f7; 
+    box-shadow:0 0 5px #f7f7f7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+table#profile th{
+    width: 40%;
+}
+
+table#profile tr th img{
+    vertical-align: middle;
+    border: 1px solid #f7f7f7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+table#profile tr th
+{
+text-align:right;
+padding-right: 2.5em;
+padding-bottom: 0.5em;
+    padding-top: 0.5em;
+      font-size: 80%;
+        background-color: #F7F6CA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+table#profile tr td{
+ padding-left: 10px; 
+         font-size: 80%;
+        background-color: #F7F6CA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+table#profile{
+    border: none;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+table#profile td{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+/**CSS for profile -- view.tpl.php ends*/
+
+/*CSs for links in status updates*/
+a.link
+{
+    text-decoration: underline;
+}
+
+/*CSS for updates*/
+div#happenings
+{
+    width:70%;
+    margin-left: 15%;
+}
+
+/* Css for view event */
+
+
+/*Events list */
+#events ul
+{
+    list-style-image:url('./images/arrow.png');
+}
+
+/*Calendar yellow in main content part*/
+
+
+#calendarmain		{font:12px Verdana, Arial, Helvetica, sans-serif; 
+			}
+#calendarmain *		{display:inline;}
+#calendarmain ol.calendar    {width:22em;margin:0 auto;display:block; min-height: 250px;
+			background: url(images/tl.png) top left no-repeat; padding: 12px 0 0 20px;}
+		
+#calendarmain li		{list-style:none;}
+#calendarmain p.link		{text-align:center;display: block;}
+#calendarmain h1		{display: block; width: 200px;height:76px;
+			background:url(images/july.png);text-indent:-9999px; margin: 15px auto; }
+
+/*
+ * Day styles
+ -------------------------*/
+#calendarmain ol li		{width:2.2em;height:2.2em;float:left;margin:.2em; padding:.2em; overflow-y:hidden;
+overflow-x:hidden;
+			background: url(images/day-bg.png) bottom right no-repeat; }
+#calendarmain ol li.calendar-empty 
+{width:2.2em;height:2.2em;float:left;margin:.2em; padding:.2em;overflow-y:hidden;
+overflow-x:hidden;
+			background: none; }
+#calendarmain ol li.has-events
+{
+    width:2.2em;height:2.2em;float:left;margin:.2em; padding:.2em;overflow-y:hidden;
+overflow-x:hidden;
+			background: url(images/day-bg-blue.png) bottom right no-repeat;
+}
+#calendarmain ol li.has-events:hover
+{
+    width:2.2em;height:2.2em;float:left;margin:.2em; padding:.2em;overflow-y:hidden;
+overflow-x:hidden;
+			background: url(images/day-bg-blue.png) bottom right no-repeat;
+                        cursor: pointer;
+                        
+}
+
+
+
+#calendarmain ol li.has-events span
+{
+    visibility: hidden;
+
+}
+
+#calendardata img{
+    vertical-align: middle;
+}
+
+/*Previous next calendar buttons*/
+span#previous
+{
+    text-decoration: underline;
+    float:left;
+    margin-left:40%;
+    cursor: pointer;
+}
+span#next
+{
+    text-decoration: underline;
+    float:right;
+    margin-right:40%;
+    cursor: pointer;
+}
+
+/* For pending group requests! */
+div#pendinggrouprequests
+{   
+width: 100%;
+}
+
+div#pendinggrouprequests div#member 
+{
+    width: 100%;
+    height: 100px;
+   background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+padding: 4px;
+margin-bottom: 20px;
+}
+
+div#pendinggrouprequests div#member div#profilepic
+{
+    float: left; 
+    width:15%; 
+    font-size:80%; 
+    text-align:center;
+    padding-top: 4px;
+}
+
+div#pendinggrouprequests div#member div#profilepic img
+{
+    height:70px;
+    width:70px;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+div#pendinggrouprequests div#member div#info
+{
+    margin-left:16%; 
+    padding-top:10px;
+    font-size: 90%;
+}
+
+div#pendinggrouprequests div#member div#button
+{
+    float:right;
+    margin-right: 5px;
+}
+
+
+/* CSs for my groups mine.tpl.php*/
+div#mygroups div#list
+{
+    display: inline-block;
+    list-style: none;
+   background-color: #C8D7EA;/*#EDEDED;*/
+    width: 100%;
+    min-height: 45px;
+        -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 15px;
+
+}
+div#mygroups ul li:first-child
+{
+    padding-top: 6px;
+    margin-left: 10px;
+    font-size: 90%;
+}
+
+div#mygroups ul li:last-child
+{
+    margin-right: 10px;
+    float: right;
+    font-size: 80%;
+    color: grey;
+}
+div#mygroups ul a
+{
+    color: #55A0D3
+}
+
+
+
+/* CSs for groups list search */
+
+/*For members list*/
+div#groupslist
+{   
+width: 100%;
+}
+
+div#groupslist div#groups 
+{
+    display: inline-block;
+    width: 100%;
+    min-height: 115px;
+   background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+padding: 4px;
+margin-bottom: 20px;
+}
+
+div#groupslist div#groups div#title
+{
+    width: 60%;
+    margin: 0px 30px;
+    padding-top: 4px;
+    float: left;
+}
+
+
+div#groupslist div#groups div#profilepic
+{
+    float: left; 
+    width:15%; 
+    font-size:80%; 
+    text-align:center;
+}
+
+div#groupslist div#groups div#profilepic img
+{
+    height:70px;
+    width:70px;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+div#groupslist div#groups div#button
+{
+    float:right;
+    margin-right: 5px;
+}
+
+
+/*For creating topic */
+form#topic 
+{
+    margin-left: 0%;
+        width: 100%;
+    margin-right: 0%;
+}
+
+form#topic label
+{
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+form#topic input[type="text"]
+{
+    width: 100%;
+}
+
+form#topic textarea
+{
+    width: 100%;
+}
+
+
+/* CSS for youtube videos */
+iframe.youtube {
+    display: block;
+    overflow:hidden;
+    width: 430px; 
+    height: 253px;
+    margin: 15px auto 15px auto;
+    border: none;
+}
+
+/*CSS for posts */
+div.posts
+{
+display: inline-block;
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: 10px;
+}
+
+div.posts div.postscreator
+{
+    display: table-cell;
+ border: 1px solid white;
+    float: left;
+    width: 20%;
+    text-align: center;
+    min-height: 120px;
+     background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 10px #C8D7EA; 
+    -moz-box-shadow: 0 0 10px #C8D7EA; 
+    box-shadow:0 0 10px #C8D7EA;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+border-radius: 10px;
+}
+div.posts div.postscreator div#time
+{
+    font-size: 70%;
+    border-bottom: 1px solid white;
+}
+
+div.posts div.postscreator div.creator
+{
+font-size: 80%;
+
+}
+
+div.posts div.postscreator div.creator img
+{
+      background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+    margin-top: 8px;
+    width: 60px;
+    height: 80px;
+}
+
+div.posts div.postscontent
+{
+    
+     background-color: #C8D7EA;
+     -webkit-box-shadow:0 0 10px #C8D7EA; 
+    -moz-box-shadow: 0 0 10px #C8D7EA; 
+    box-shadow:0 0 10px #C8D7EA;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+border-radius: 10px;
+ border: 1px solid white;
+    margin-left: 20%;
+    min-height: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+div.posts div.postscontent div.postcontent
+{
+    display: inline-block;
+    min-height: 90px;
+    margin-bottom: 20px;
+}
+/*CSS for edit and delete buttons in group! */
+div.posts div.postscontent div.postsbutton
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    min-height: 20px;
+}
+
+/* CSS for topic list*/
+#topiclist table{
+    -webkit-box-shadow:0 0 6px #C8D7EA; 
+    -moz-box-shadow: 0 0 6px #C8D7EA; 
+    box-shadow:0 0 6px #C8D7EA;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+border-radius: 6px;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 90%;
+}
+#topiclist table
+{
+    text-align: center;
+}
+#topiclist table td{
+    padding-left: 5px;
+}
+#topiclist table tr#header
+{
+     -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    background-color: #afc5e1;
+    color: #FFFFFF;
+    border-bottom: 2px solid #000000;
+}
+
+#topiclist table tr#header th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+#topiclist table tr#header th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+#topiclist table tr td:first-child{
+    float: left;
+    margin-left: 10px;
+}
+#topiclist table tr#header th:first-child{
+    float: left;
+    margin-left: 10px;
+    -moz-border-radius: 6px 0px 0 0;
+    -webkit-border-radius: 6px 0px 0 0;
+    border-radius: 6px 0px 0 0;
+}
+#topiclist table tr{
+    border-bottom: 1px solid #a9a9a9;
+}
+
+#topiclist table tr:last-child{
+    border:none;
+     -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+#topiclist form input[type="text"], textarea
+{
+width: 300px;    
+}
+
+
+div.groupbuttons
+{
+    float: right;
+}
+div.groupbuttons a
+{
+    float: right;
+}
+
+div#createnewtopic
+{
+    float:left;
+}
+
+/*CSS for creating group*/
+form#creategroup
+{
+    margin-left: 0%;
+        width: 100%;
+    margin-right: 0%;
+}
+
+form#creategroup label
+{
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+form#creategroup input[type="text"]
+{
+    width: 50%;
+}
+
+form#creategroup textarea
+{
+    width: 100%;
+}
+
+/*CSS for editing group*/
+form#editgroup
+{
+    margin-left: 0%;
+        width: 100%;
+    margin-right: 0%;
+}
+
+form#editgroup label
+{
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+form#editgroup input[type="text"]
+{
+    width: 50%;
+}
+
+form#editgroup textarea
+{
+    width: 100%;
+}
+
+/* CSS for inviting members to group*/
+form#invitegroup
+{
+    margin-left: 0%;
+        width: 100%;
+    margin-right: 0%;
+}
+
+form#invitegroup label
+{
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+/**CSS for my created groups mine-created.tpl.php**/
+div#mycreatedgroups div#list
+{
+    display: inline-block;
+    list-style: none;
+   background-color: #C8D7EA;/*#EDEDED;*/
+    width: 100%;
+    min-height: 45px;
+        -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 15px;
+
+}
+div#mycreatedgroups ul li:first-child
+{
+    padding-top: 6px;
+    margin-left: 10px;
+    font-size: 90%;
+}
+
+div#mycreatedgroups ul li:last-child
+{
+    margin-right: 10px;
+    float: right;
+    font-size: 80%;
+    color: grey;
+}
+div#mycreatedgroups ul a
+{
+    color: #55A0D3
+}
+
+/*CSS for creating blogs*/
+form#createblog
+{
+    margin-left: 0%;
+        width: 100%;
+    margin-right: 0%;
+}
+
+form#createblog label
+{
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+form#createblog input[type="text"]
+{
+    width: 50%;
+}
+
+form#createblog textarea
+{
+    width: 100%;
+}
+
+form#createblog small
+{
+    margin-left: 7%;
+}
+
+/*CSS for viewing blog*/
+div#viewblog
+{
+    display: inline-block;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+div#viewblog div#blogcontent
+{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 90%;
+}
+div#viewblog div#blogcreated
+{
+    background-color: #C8D7EA;/*#EDEDED;*/
+    width: 100%;
+    min-height: 50px;
+        -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+div#viewblog div#blogcreated div#category
+{
+    float: left;
+    font-size: 80%;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+div#viewblog div#blogcreated div#info img
+{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    border: 1px solid #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div#viewblog div#blogcreated div#info
+{
+   margin-bottom: 4px;
+    margin-right: 4px;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+div#viewblog div#blogcreated div#info a
+{
+    color: #55a0d3;
+    font-size: 80%;
+}
+div#viewblog div#blogcreated div#info span#time
+{
+    font-size: 70%;
+    color: grey;
+}
+
+div#blogeditbuttons
+{
+    float: right; 
+    margin-top: 5px;
+    display: block;
+    font-size: 80%;
+}
+
+div#blogeditbuttons a
+{
+    color: #55a0d3;
+}
+
+/*CSS for blog comments*/
+form#commenttext textarea
+{
+    width: 100%;
+}
+div#commentlist
+{
+    margin-top: 10px;
+    position: relative;
+}
+
+div.commentmain div.commentcreated
+{ margin-top: 8px;
+  display: inline-block;
+  margin-bottom: 8px;
+     position: relative;
+    background-color: #C8D7EA;/*#EDEDED;*/
+    width: 90%;
+    margin-left: 10%;
+    min-height: 50px;
+        -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+
+div.commentmain div.commentcreated div#info img
+{
+    
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    border: 1px solid #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.commentmain div.commentcreated div#info
+{
+    
+   margin-top: 4px;
+    margin-left: 4px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+div.commentmain div.commentcreated div#info a
+{
+    color: #55a0d3;
+    font-size: 80%;
+}
+div.commentmain div.commentcreated div#info span#time
+{
+    font-size: 70%;
+    color: grey;
+}
+
+div.commentmain div.actualcomment
+{
+    display: inline-block;
+    margin-left: 12%;
+    font-size: 80%;
+    width: 73%;
+    background-color: #E2E2E0;
+    -webkit-box-shadow:0 0 5px #E7E7DD; 
+    -moz-box-shadow: 0 0 5px #E7E7DD; 
+    box-shadow:0 0 5px #E7E7DD;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+div.commentbuttons
+{
+    position: absolute;
+    right: 0px;
+    font-size: 80%;
+}
+div.commentbuttons a
+{
+    color: #55a0d3;
+}
+
+/*CSS for editing blogs*/
+form#editblog
+{
+    margin-left: 0%;
+        width: 100%;
+    margin-right: 0%;
+}
+
+form#editblog label
+{
+    float: left;
+    margin-right: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+form#editblog input[type="text"]
+{
+    width: 50%;
+}
+
+form#editblog textarea
+{
+    width: 100%;
+}
+
+form#editblog small
+{
+    margin-left: 7%;
+}
+
+/* Blog list */
+div#blogslist div#blog
+{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 23px;
+}
+div#blogslist div#blog div#title
+{
+    display: inline-block;
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 16%;
+    padding: 10px;
+    font-size: 80%;
+        background-color: #F7F6CA;
+     -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+div#blogslist div#blog div#blogcontent
+{
+    
+    width: 100%;
+    padding: 10px;
+    font-size: 90%;
+
+}
+div#blogslist div#blog div#blogcreated
+{
+    background-color: #C8D7EA;/*#EDEDED;*/
+    width: 100%;
+    min-height: 50px;
+        -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+div#blogslist div#blog div#blogcreated div#category
+{
+    float: left;
+    font-size: 80%;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+div#blogslist div#blog div#blogcreated div#info img
+{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    border: 1px solid #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div#blogslist div#blog div#blogcreated div#info
+{
+   margin-bottom: 4px;
+    margin-right: 4px;
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+div#blogslist div#blog div#blogcreated div#info a
+{
+    color: #55a0d3;
+    font-size: 80%;
+}
+div#blogslist div#blog div#blogcreated div#info span#time
+{
+    font-size: 70%;
+    color: grey;
+}
+
+/**CSs for my created blogs mine-created.tpl.php*/
+div#mycreatedblogs div#list
+{
+    display: inline-block;
+   background-color: #C8D7EA;/*#EDEDED;*/
+    width: 100%;
+   min-height: 45px;
+        -webkit-box-shadow:0 0 5px #C8D7EA; 
+    -moz-box-shadow: 0 0 5px #C8D7EA; 
+    box-shadow:0 0 5px #C8D7EA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom: 15px;
+
+}
+div#mycreatedblogs ul li:first-child
+{
+    padding-top: 6px;
+    margin-left: 10px;
+    font-size: 90%;
+}
+
+div#mycreatedblogs ul li:last-child
+{
+    margin-right: 10px;
+    float: right;
+    font-size: 80%;
+    color: grey;
+}
+div#mycreatedblogs ul a
+{
+    color: #55A0D3
+}
+

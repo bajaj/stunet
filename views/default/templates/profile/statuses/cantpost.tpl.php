@@ -1,0 +1,1 @@
+<center><p><strong>You cannot post on {profile_fname} {profile_lname}'s dashboard as you are not connected yet to each other!</strong></p></center><br/>

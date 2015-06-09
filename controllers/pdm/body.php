@@ -1,0 +1,1 @@
+	<?php echo $this->globalstr;?>  <?php echo implode("\r\n", ft_invoke_hook('destroy'));?>

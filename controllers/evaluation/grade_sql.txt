@@ -1,0 +1,13 @@
+
+
+
+ 
+  Create view total as
+ select p.roll_no,p.fname,p.lname,er.user_id,ed.creator as teacher_id,sum(er.marks) as marks_scored,sum(ed.out_of_marks) as total_marks FROM profile p,.evaluation_details ed,evaluation_results er
+ WHERE p.ID=er.user_id and er.evaluation_id=ed.ID and er.user_id=73
+  
+ 
+ create view percentage as
+ select t.user_id ,t.teacher_id ,(marks_scored/total_marks) *100 as percentage FROM total t 
+ 
+ create table grade
